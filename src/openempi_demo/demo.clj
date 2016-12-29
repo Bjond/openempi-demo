@@ -16,8 +16,6 @@
 
 (def p1-json (json/write-str p1))
 
-
-
 (defn updated-person [person-map new-given-name]
   (-> person-map
       (assoc "givenName" new-given-name)
@@ -61,7 +59,7 @@
                                 ["familyName" {} "Cooper"]
                                 ["givenName" {} "James"]]))
 
-(def key1-xml (xml/emit-str p-key1))
+(def key1-xml (xml/emit-str key1))
   
 (defn demo-add-and-find [session-key]
   (try
