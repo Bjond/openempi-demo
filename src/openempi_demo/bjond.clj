@@ -5,10 +5,6 @@
 
 (def url-base "http://localhost:8080")
 
-;; /server-core/services/personservice/read/person?personid=
-
-;; /server-core/services/empiservice/add
-
 (def p1 {"gender" {"genderCode" "M"}
          "familyName" "Cooper"
          "middleName" "Fenimore"
